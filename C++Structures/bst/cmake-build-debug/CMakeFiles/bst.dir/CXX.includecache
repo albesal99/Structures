@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alberto/Desktop/CPE/C++Structures/bst/binary_search_tree.cpp
+iostream
+-
+bootstrap.h
+-
+binary_search_tree.h
+/Users/alberto/Desktop/CPE/C++Structures/bst/binary_search_tree.h
+tuple
+-
+algorithm
+-
+queue
+-
+
+/Users/alberto/Desktop/CPE/C++Structures/bst/binary_search_tree.h
+tuple
+-
+
+/Users/alberto/Desktop/CPE/C++Structures/bst/main.cpp
+iostream
+-
+binary_search_tree.h
+/Users/alberto/Desktop/CPE/C++Structures/bst/binary_search_tree.h
+

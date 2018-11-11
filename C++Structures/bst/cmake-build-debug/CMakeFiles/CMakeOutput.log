@@ -1,6 +1,6 @@
-The system is: Darwin - 18.0.0 - x86_64
+The system is: Windows - 10.0.17134 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Compiler: E:/mingw-w64/mingw32/bin/gcc.exe 
 Build flags: 
 Id flags:  
 
@@ -8,12 +8,12 @@ The output was:
 0
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is AppleClang, found in "/Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Compiler: E:/mingw-w64/mingw32/bin/g++.exe 
 Build flags: 
 Id flags:  
 
@@ -21,104 +21,182 @@ The output was:
 0
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is AppleClang, found in "/Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1972e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1972e.dir/build.make CMakeFiles/cmTC_1972e.dir/build
-Building C object CMakeFiles/cmTC_1972e.dir/testCCompiler.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_1972e.dir/testCCompiler.c.o   -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_1972e
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1972e.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1972e.dir/testCCompiler.c.o  -o cmTC_1972e 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_9de7a/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_9de7a.dir\build.make CMakeFiles/cmTC_9de7a.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9de7a.dir/testCCompiler.c.obj
+E:\mingw-w64\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_9de7a.dir\testCCompiler.c.obj   -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_9de7a.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9de7a.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_9de7a.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_9de7a.dir/objects.a @CMakeFiles\cmTC_9de7a.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_9de7a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9de7a.exe -Wl,--out-implib,libcmTC_9de7a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9de7a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_78f60/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_78f60.dir/build.make CMakeFiles/cmTC_78f60.dir/build
-Building C object CMakeFiles/cmTC_78f60.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_78f60.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_78f60
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78f60.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_78f60.dir/CMakeCCompilerABI.c.o  -o cmTC_78f60 
-Apple LLVM version 10.0.0 (clang-1000.10.44.4)
-Target: x86_64-apple-darwin18.0.0
-Thread model: posix
-InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_78f60 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_78f60.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-409.12
-BUILD 17:47:51 Sep 25 2018
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-Library search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
-Framework search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_798c6/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_798c6.dir\build.make CMakeFiles/cmTC_798c6.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_798c6.dir/CMakeCCompilerABI.c.obj
+E:\mingw-w64\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_798c6.dir\CMakeCCompilerABI.c.obj   -c "E:\CLion 2018.1.2\bin\cmake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_798c6.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_798c6.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_798c6.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_798c6.dir/objects.a @CMakeFiles\cmTC_798c6.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_798c6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_798c6.exe -Wl,--out-implib,libcmTC_798c6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=E:\mingw-w64\mingw32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/;E:/mingw-w64/mingw32/bin/../libexec/gcc/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/;E:/mingw-w64/mingw32/bin/../lib/gcc/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_798c6.exe' '-mtune=generic' '-march=i686'
+ E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\ccfN8yXd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_798c6.exe E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LE:/mingw-w64/mingw32/bin/../lib/gcc -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_798c6.dir/objects.a --no-whole-archive --out-implib libcmTC_798c6.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_798c6.exe' '-mtune=generic' '-march=i686'
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_78f60/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_78f60.dir/build.make CMakeFiles/cmTC_78f60.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_78f60.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_78f60.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_78f60]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78f60.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_78f60.dir/CMakeCCompilerABI.c.o  -o cmTC_78f60 ]
-  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
-  ignore line: [Target: x86_64-apple-darwin18.0.0]
+  ignore line: [Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_798c6/fast"]
+  ignore line: [E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_798c6.dir\build.make CMakeFiles/cmTC_798c6.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_798c6.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [E:\mingw-w64\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_798c6.dir\CMakeCCompilerABI.c.obj   -c "E:\CLion 2018.1.2\bin\cmake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_798c6.exe]
+  ignore line: ["E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_798c6.dir\link.txt --verbose=1]
+  ignore line: ["E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_798c6.dir/objects.a]
+  ignore line: [E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_798c6.dir/objects.a @CMakeFiles\cmTC_798c6.dir\objects1.rsp]
+  ignore line: [E:\mingw-w64\mingw32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_798c6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_798c6.exe -Wl,--out-implib,libcmTC_798c6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\mingw-w64\mingw32\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_78f60 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_78f60.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-lto_library] ==> ignore, skip following value
-    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.14.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+  ignore line: [gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../libexec/gcc/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_798c6.exe' '-mtune=generic' '-march=i686']
+  link line: [ E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\ccfN8yXd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_798c6.exe E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LE:/mingw-w64/mingw32/bin/../lib/gcc -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_798c6.dir/objects.a --no-whole-archive --out-implib libcmTC_798c6.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o]
+    arg [E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\ccfN8yXd.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_78f60] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_78f60.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
-  implicit libs: []
-  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+    arg [cmTC_798c6.exe] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o] ==> ignore
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_798c6.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_798c6.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0] ==> [E:/mingw-w64/mingw32/lib/gcc/i686-w64-mingw32/8.1.0]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc] ==> [E:/mingw-w64/mingw32/lib/gcc]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib] ==> [E:/mingw-w64/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib] ==> [E:/mingw-w64/mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib] ==> [E:/mingw-w64/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..] ==> [E:/mingw-w64/mingw32/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [E:/mingw-w64/mingw32/lib/gcc/i686-w64-mingw32/8.1.0;E:/mingw-w64/mingw32/lib/gcc;E:/mingw-w64/mingw32/i686-w64-mingw32/lib;E:/mingw-w64/mingw32/lib]
+  implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3331c/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3331c.dir/build.make CMakeFiles/cmTC_3331c.dir/build
-Building C object CMakeFiles/cmTC_3331c.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_3331c.dir/feature_tests.c.o   -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3331c
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3331c.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3331c.dir/feature_tests.c.o  -o cmTC_3331c 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_6afb9/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_6afb9.dir\build.make CMakeFiles/cmTC_6afb9.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6afb9.dir/feature_tests.c.obj
+E:\mingw-w64\mingw32\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_6afb9.dir\feature_tests.c.obj   -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_6afb9.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6afb9.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_6afb9.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_6afb9.dir/objects.a @CMakeFiles\cmTC_6afb9.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_6afb9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6afb9.exe -Wl,--out-implib,libcmTC_6afb9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6afb9.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -128,15 +206,19 @@ Linking C executable cmTC_3331c
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8f147/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8f147.dir/build.make CMakeFiles/cmTC_8f147.dir/build
-Building C object CMakeFiles/cmTC_8f147.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_8f147.dir/feature_tests.c.o   -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8f147
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f147.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8f147.dir/feature_tests.c.o  -o cmTC_8f147 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_90114/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_90114.dir\build.make CMakeFiles/cmTC_90114.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90114.dir/feature_tests.c.obj
+E:\mingw-w64\mingw32\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_90114.dir\feature_tests.c.obj   -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_90114.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_90114.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_90114.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_90114.dir/objects.a @CMakeFiles\cmTC_90114.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_90114.dir/objects.a -Wl,--no-whole-archive  -o cmTC_90114.exe -Wl,--out-implib,libcmTC_90114.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_90114.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -146,15 +228,19 @@ Linking C executable cmTC_8f147
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70707/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_70707.dir/build.make CMakeFiles/cmTC_70707.dir/build
-Building C object CMakeFiles/cmTC_70707.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_70707.dir/feature_tests.c.o   -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_70707
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70707.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_70707.dir/feature_tests.c.o  -o cmTC_70707 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_b5256/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_b5256.dir\build.make CMakeFiles/cmTC_b5256.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5256.dir/feature_tests.c.obj
+E:\mingw-w64\mingw32\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_b5256.dir\feature_tests.c.obj   -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_b5256.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b5256.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b5256.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_b5256.dir/objects.a @CMakeFiles\cmTC_b5256.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_b5256.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b5256.exe -Wl,--out-implib,libcmTC_b5256.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b5256.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -162,100 +248,180 @@ Linking C executable cmTC_70707
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b9c57/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b9c57.dir/build.make CMakeFiles/cmTC_b9c57.dir/build
-Building CXX object CMakeFiles/cmTC_b9c57.dir/testCXXCompiler.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b9c57.dir/testCXXCompiler.cxx.o -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_b9c57
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9c57.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b9c57.dir/testCXXCompiler.cxx.o  -o cmTC_b9c57 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_7e12e/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_7e12e.dir\build.make CMakeFiles/cmTC_7e12e.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7e12e.dir/testCXXCompiler.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_7e12e.dir\testCXXCompiler.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_7e12e.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7e12e.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7e12e.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_7e12e.dir/objects.a @CMakeFiles\cmTC_7e12e.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_7e12e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7e12e.exe -Wl,--out-implib,libcmTC_7e12e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7e12e.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aac36/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aac36.dir/build.make CMakeFiles/cmTC_aac36.dir/build
-Building CXX object CMakeFiles/cmTC_aac36.dir/CMakeCXXCompilerABI.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_aac36.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_aac36
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aac36.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_aac36.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aac36 
-Apple LLVM version 10.0.0 (clang-1000.10.44.4)
-Target: x86_64-apple-darwin18.0.0
-Thread model: posix
-InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_aac36 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_aac36.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-409.12
-BUILD 17:47:51 Sep 25 2018
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-Library search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
-Framework search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_4c8f9/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_4c8f9.dir\build.make CMakeFiles/cmTC_4c8f9.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4c8f9.dir/CMakeCXXCompilerABI.cpp.obj
+E:\mingw-w64\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_4c8f9.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion 2018.1.2\bin\cmake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_4c8f9.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4c8f9.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4c8f9.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_4c8f9.dir/objects.a @CMakeFiles\cmTC_4c8f9.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_4c8f9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4c8f9.exe -Wl,--out-implib,libcmTC_4c8f9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=E:\mingw-w64\mingw32\bin\g++.exe
+COLLECT_LTO_WRAPPER=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/;E:/mingw-w64/mingw32/bin/../libexec/gcc/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/;E:/mingw-w64/mingw32/bin/../lib/gcc/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c8f9.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\cc173hGk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_4c8f9.exe E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LE:/mingw-w64/mingw32/bin/../lib/gcc -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_4c8f9.dir/objects.a --no-whole-archive --out-implib libcmTC_4c8f9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c8f9.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_aac36/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aac36.dir/build.make CMakeFiles/cmTC_aac36.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_aac36.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_aac36.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_aac36]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aac36.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_aac36.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aac36 ]
-  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
-  ignore line: [Target: x86_64-apple-darwin18.0.0]
+  ignore line: [Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_4c8f9/fast"]
+  ignore line: [E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_4c8f9.dir\build.make CMakeFiles/cmTC_4c8f9.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4c8f9.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [E:\mingw-w64\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_4c8f9.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion 2018.1.2\bin\cmake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_4c8f9.exe]
+  ignore line: ["E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4c8f9.dir\link.txt --verbose=1]
+  ignore line: ["E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4c8f9.dir/objects.a]
+  ignore line: [E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_4c8f9.dir/objects.a @CMakeFiles\cmTC_4c8f9.dir\objects1.rsp]
+  ignore line: [E:\mingw-w64\mingw32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_4c8f9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4c8f9.exe -Wl,--out-implib,libcmTC_4c8f9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\mingw-w64\mingw32\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_aac36 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_aac36.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-lto_library] ==> ignore, skip following value
-    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.14.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+  ignore line: [gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../libexec/gcc/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c8f9.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\cc173hGk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_4c8f9.exe E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LE:/mingw-w64/mingw32/bin/../lib/gcc -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_4c8f9.dir/objects.a --no-whole-archive --out-implib libcmTC_4c8f9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o]
+    arg [E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\cc173hGk.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_aac36] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_aac36.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lc++] ==> lib [c++]
-    arg [-lSystem] ==> lib [System]
-    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
-  implicit libs: [c++]
-  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+    arg [cmTC_4c8f9.exe] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o] ==> ignore
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_4c8f9.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_4c8f9.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0] ==> [E:/mingw-w64/mingw32/lib/gcc/i686-w64-mingw32/8.1.0]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc] ==> [E:/mingw-w64/mingw32/lib/gcc]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib] ==> [E:/mingw-w64/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib] ==> [E:/mingw-w64/mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib] ==> [E:/mingw-w64/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..] ==> [E:/mingw-w64/mingw32/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [E:/mingw-w64/mingw32/lib/gcc/i686-w64-mingw32/8.1.0;E:/mingw-w64/mingw32/lib/gcc;E:/mingw-w64/mingw32/i686-w64-mingw32/lib;E:/mingw-w64/mingw32/lib]
+  implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ff847/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ff847.dir/build.make CMakeFiles/cmTC_ff847.dir/build
-Building CXX object CMakeFiles/cmTC_ff847.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++1z -o CMakeFiles/cmTC_ff847.dir/feature_tests.cxx.o -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ff847
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff847.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ff847.dir/feature_tests.cxx.o  -o cmTC_ff847 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_6051c/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_6051c.dir\build.make CMakeFiles/cmTC_6051c.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6051c.dir/feature_tests.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe    -std=c++1z -o CMakeFiles\cmTC_6051c.dir\feature_tests.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_6051c.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6051c.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_6051c.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_6051c.dir/objects.a @CMakeFiles\cmTC_6051c.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_6051c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6051c.exe -Wl,--out-implib,libcmTC_6051c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6051c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -318,15 +484,19 @@ Linking CXX executable cmTC_ff847
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_116bd/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_116bd.dir/build.make CMakeFiles/cmTC_116bd.dir/build
-Building CXX object CMakeFiles/cmTC_116bd.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++14 -o CMakeFiles/cmTC_116bd.dir/feature_tests.cxx.o -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_116bd
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_116bd.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_116bd.dir/feature_tests.cxx.o  -o cmTC_116bd 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_acd41/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_acd41.dir\build.make CMakeFiles/cmTC_acd41.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_acd41.dir/feature_tests.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_acd41.dir\feature_tests.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_acd41.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_acd41.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_acd41.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_acd41.dir/objects.a @CMakeFiles\cmTC_acd41.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_acd41.dir/objects.a -Wl,--no-whole-archive  -o cmTC_acd41.exe -Wl,--out-implib,libcmTC_acd41.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_acd41.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -389,15 +559,19 @@ Linking CXX executable cmTC_116bd
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8daad/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8daad.dir/build.make CMakeFiles/cmTC_8daad.dir/build
-Building CXX object CMakeFiles/cmTC_8daad.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_8daad.dir/feature_tests.cxx.o -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8daad
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8daad.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8daad.dir/feature_tests.cxx.o  -o cmTC_8daad 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_34512/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_34512.dir\build.make CMakeFiles/cmTC_34512.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34512.dir/feature_tests.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_34512.dir\feature_tests.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_34512.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_34512.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_34512.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_34512.dir/objects.a @CMakeFiles\cmTC_34512.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_34512.dir/objects.a -Wl,--no-whole-archive  -o cmTC_34512.exe -Wl,--out-implib,libcmTC_34512.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_34512.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -460,15 +634,19 @@ Linking CXX executable cmTC_8daad
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ddc6d/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ddc6d.dir/build.make CMakeFiles/cmTC_ddc6d.dir/build
-Building CXX object CMakeFiles/cmTC_ddc6d.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++98 -o CMakeFiles/cmTC_ddc6d.dir/feature_tests.cxx.o -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ddc6d
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddc6d.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ddc6d.dir/feature_tests.cxx.o  -o cmTC_ddc6d 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_2476c/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_2476c.dir\build.make CMakeFiles/cmTC_2476c.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2476c.dir/feature_tests.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_2476c.dir\feature_tests.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_2476c.exe
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2476c.dir\link.txt --verbose=1
+"E:\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_2476c.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_2476c.dir/objects.a @CMakeFiles\cmTC_2476c.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_2476c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2476c.exe -Wl,--out-implib,libcmTC_2476c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2476c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -528,9 +706,9 @@ Linking CXX executable cmTC_ddc6d
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
-The system is: Darwin - 18.0.0 - x86_64
+The system is: Windows - 10.0.17134 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Compiler: E:/mingw-w64/mingw32/bin/gcc.exe 
 Build flags: 
 Id flags:  
 
@@ -538,12 +716,12 @@ The output was:
 0
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is AppleClang, found in "/Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Compiler: E:/mingw-w64/mingw32/bin/g++.exe 
 Build flags: 
 Id flags:  
 
@@ -551,104 +729,182 @@ The output was:
 0
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is AppleClang, found in "/Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_381e7/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_381e7.dir/build.make CMakeFiles/cmTC_381e7.dir/build
-Building C object CMakeFiles/cmTC_381e7.dir/testCCompiler.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_381e7.dir/testCCompiler.c.o   -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_381e7
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_381e7.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_381e7.dir/testCCompiler.c.o  -o cmTC_381e7 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_d8b08/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_d8b08.dir\build.make CMakeFiles/cmTC_d8b08.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8b08.dir/testCCompiler.c.obj
+E:\mingw-w64\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_d8b08.dir\testCCompiler.c.obj   -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_d8b08.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d8b08.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d8b08.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_d8b08.dir/objects.a @CMakeFiles\cmTC_d8b08.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_d8b08.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d8b08.exe -Wl,--out-implib,libcmTC_d8b08.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d8b08.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_592cd/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_592cd.dir/build.make CMakeFiles/cmTC_592cd.dir/build
-Building C object CMakeFiles/cmTC_592cd.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_592cd.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_592cd
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_592cd.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_592cd.dir/CMakeCCompilerABI.c.o  -o cmTC_592cd 
-Apple LLVM version 10.0.0 (clang-1000.10.44.4)
-Target: x86_64-apple-darwin18.0.0
-Thread model: posix
-InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_592cd -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_592cd.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-409.12
-BUILD 17:47:51 Sep 25 2018
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-Library search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
-Framework search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_14aec/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_14aec.dir\build.make CMakeFiles/cmTC_14aec.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14aec.dir/CMakeCCompilerABI.c.obj
+E:\mingw-w64\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_14aec.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_14aec.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_14aec.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_14aec.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_14aec.dir/objects.a @CMakeFiles\cmTC_14aec.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_14aec.dir/objects.a -Wl,--no-whole-archive  -o cmTC_14aec.exe -Wl,--out-implib,libcmTC_14aec.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=E:\mingw-w64\mingw32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/;E:/mingw-w64/mingw32/bin/../libexec/gcc/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/;E:/mingw-w64/mingw32/bin/../lib/gcc/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14aec.exe' '-mtune=generic' '-march=i686'
+ E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\cc7dCsFJ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_14aec.exe E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LE:/mingw-w64/mingw32/bin/../lib/gcc -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_14aec.dir/objects.a --no-whole-archive --out-implib libcmTC_14aec.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14aec.exe' '-mtune=generic' '-march=i686'
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_592cd/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_592cd.dir/build.make CMakeFiles/cmTC_592cd.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_592cd.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_592cd.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_592cd]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_592cd.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_592cd.dir/CMakeCCompilerABI.c.o  -o cmTC_592cd ]
-  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
-  ignore line: [Target: x86_64-apple-darwin18.0.0]
+  ignore line: [Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_14aec/fast"]
+  ignore line: [E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_14aec.dir\build.make CMakeFiles/cmTC_14aec.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_14aec.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [E:\mingw-w64\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_14aec.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_14aec.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_14aec.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_14aec.dir/objects.a]
+  ignore line: [E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_14aec.dir/objects.a @CMakeFiles\cmTC_14aec.dir\objects1.rsp]
+  ignore line: [E:\mingw-w64\mingw32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_14aec.dir/objects.a -Wl,--no-whole-archive  -o cmTC_14aec.exe -Wl,--out-implib,libcmTC_14aec.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\mingw-w64\mingw32\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_592cd -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_592cd.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-lto_library] ==> ignore, skip following value
-    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.14.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+  ignore line: [gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../libexec/gcc/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_14aec.exe' '-mtune=generic' '-march=i686']
+  link line: [ E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\cc7dCsFJ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_14aec.exe E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LE:/mingw-w64/mingw32/bin/../lib/gcc -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_14aec.dir/objects.a --no-whole-archive --out-implib libcmTC_14aec.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o]
+    arg [E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\cc7dCsFJ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_592cd] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_592cd.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
-  implicit libs: []
-  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+    arg [cmTC_14aec.exe] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o] ==> ignore
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_14aec.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_14aec.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0] ==> [E:/mingw-w64/mingw32/lib/gcc/i686-w64-mingw32/8.1.0]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc] ==> [E:/mingw-w64/mingw32/lib/gcc]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib] ==> [E:/mingw-w64/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib] ==> [E:/mingw-w64/mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib] ==> [E:/mingw-w64/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..] ==> [E:/mingw-w64/mingw32/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [E:/mingw-w64/mingw32/lib/gcc/i686-w64-mingw32/8.1.0;E:/mingw-w64/mingw32/lib/gcc;E:/mingw-w64/mingw32/i686-w64-mingw32/lib;E:/mingw-w64/mingw32/lib]
+  implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7c24a/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7c24a.dir/build.make CMakeFiles/cmTC_7c24a.dir/build
-Building C object CMakeFiles/cmTC_7c24a.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_7c24a.dir/feature_tests.c.o   -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_7c24a
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c24a.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c24a.dir/feature_tests.c.o  -o cmTC_7c24a 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_33e1a/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_33e1a.dir\build.make CMakeFiles/cmTC_33e1a.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33e1a.dir/feature_tests.c.obj
+E:\mingw-w64\mingw32\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_33e1a.dir\feature_tests.c.obj   -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_33e1a.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_33e1a.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_33e1a.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_33e1a.dir/objects.a @CMakeFiles\cmTC_33e1a.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_33e1a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_33e1a.exe -Wl,--out-implib,libcmTC_33e1a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_33e1a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -658,15 +914,19 @@ Linking C executable cmTC_7c24a
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6768e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6768e.dir/build.make CMakeFiles/cmTC_6768e.dir/build
-Building C object CMakeFiles/cmTC_6768e.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_6768e.dir/feature_tests.c.o   -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6768e
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6768e.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6768e.dir/feature_tests.c.o  -o cmTC_6768e 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_e8a8f/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_e8a8f.dir\build.make CMakeFiles/cmTC_e8a8f.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8a8f.dir/feature_tests.c.obj
+E:\mingw-w64\mingw32\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_e8a8f.dir\feature_tests.c.obj   -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_e8a8f.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e8a8f.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e8a8f.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_e8a8f.dir/objects.a @CMakeFiles\cmTC_e8a8f.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e8a8f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e8a8f.exe -Wl,--out-implib,libcmTC_e8a8f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e8a8f.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -676,15 +936,19 @@ Linking C executable cmTC_6768e
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_814c5/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_814c5.dir/build.make CMakeFiles/cmTC_814c5.dir/build
-Building C object CMakeFiles/cmTC_814c5.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_814c5.dir/feature_tests.c.o   -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_814c5
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_814c5.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_814c5.dir/feature_tests.c.o  -o cmTC_814c5 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_793eb/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_793eb.dir\build.make CMakeFiles/cmTC_793eb.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_793eb.dir/feature_tests.c.obj
+E:\mingw-w64\mingw32\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_793eb.dir\feature_tests.c.obj   -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_793eb.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_793eb.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_793eb.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_793eb.dir/objects.a @CMakeFiles\cmTC_793eb.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_793eb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_793eb.exe -Wl,--out-implib,libcmTC_793eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_793eb.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -692,100 +956,255 @@ Linking C executable cmTC_814c5
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f36ee/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f36ee.dir/build.make CMakeFiles/cmTC_f36ee.dir/build
-Building CXX object CMakeFiles/cmTC_f36ee.dir/testCXXCompiler.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_f36ee.dir/testCXXCompiler.cxx.o -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f36ee
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f36ee.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f36ee.dir/testCXXCompiler.cxx.o  -o cmTC_f36ee 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_a7f2d/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_a7f2d.dir\build.make CMakeFiles/cmTC_a7f2d.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7f2d.dir/testCXXCompiler.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_a7f2d.dir\testCXXCompiler.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_a7f2d.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a7f2d.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a7f2d.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_a7f2d.dir/objects.a @CMakeFiles\cmTC_a7f2d.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_a7f2d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a7f2d.exe -Wl,--out-implib,libcmTC_a7f2d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a7f2d.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2ed67/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2ed67.dir/build.make CMakeFiles/cmTC_2ed67.dir/build
-Building CXX object CMakeFiles/cmTC_2ed67.dir/CMakeCXXCompilerABI.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_2ed67.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2ed67
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ed67.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2ed67.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2ed67 
-Apple LLVM version 10.0.0 (clang-1000.10.44.4)
-Target: x86_64-apple-darwin18.0.0
-Thread model: posix
-InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_2ed67 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2ed67.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-409.12
-BUILD 17:47:51 Sep 25 2018
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-Library search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
-Framework search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_ba720/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_ba720.dir\build.make CMakeFiles/cmTC_ba720.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba720.dir/CMakeCXXCompilerABI.cpp.obj
+E:\mingw-w64\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_ba720.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_ba720.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ba720.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ba720.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_ba720.dir/objects.a @CMakeFiles\cmTC_ba720.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_ba720.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ba720.exe -Wl,--out-implib,libcmTC_ba720.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=E:\mingw-w64\mingw32\bin\g++.exe
+COLLECT_LTO_WRAPPER=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/;E:/mingw-w64/mingw32/bin/../libexec/gcc/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/;E:/mingw-w64/mingw32/bin/../lib/gcc/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/;E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba720.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\ccT1tFxV.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_ba720.exe E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LE:/mingw-w64/mingw32/bin/../lib/gcc -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_ba720.dir/objects.a --no-whole-archive --out-implib libcmTC_ba720.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba720.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2ed67/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2ed67.dir/build.make CMakeFiles/cmTC_2ed67.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_2ed67.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_2ed67.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2ed67]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ed67.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2ed67.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2ed67 ]
-  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
-  ignore line: [Target: x86_64-apple-darwin18.0.0]
+  ignore line: [Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_ba720/fast"]
+  ignore line: [E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_ba720.dir\build.make CMakeFiles/cmTC_ba720.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ba720.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [E:\mingw-w64\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_ba720.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_ba720.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ba720.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ba720.dir/objects.a]
+  ignore line: [E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_ba720.dir/objects.a @CMakeFiles\cmTC_ba720.dir\objects1.rsp]
+  ignore line: [E:\mingw-w64\mingw32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_ba720.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ba720.exe -Wl,--out-implib,libcmTC_ba720.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\mingw-w64\mingw32\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/include -I/c/mingw810/prerequisites/i686-zlib-static/include -I/c/mingw810/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32/opt/lib -L/c/mingw810/prerequisites/i686-zlib-static/lib -L/c/mingw810/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_2ed67 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2ed67.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-lto_library] ==> ignore, skip following value
-    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.14.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+  ignore line: [gcc version 8.1.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../libexec/gcc/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba720.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe -plugin E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\ccT1tFxV.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_ba720.exe E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0 -LE:/mingw-w64/mingw32/bin/../lib/gcc -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib -LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../.. --whole-archive CMakeFiles\cmTC_ba720.dir/objects.a --no-whole-archive --out-implib libcmTC_ba720.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o]
+    arg [E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=E:/mingw-w64/mingw32/bin/../libexec/gcc/i686-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Alberto\AppData\Local\Temp\ccT1tFxV.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/mingw810/i686-810-posix-dwarf-rt_v6-rev0/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2ed67] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_2ed67.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lc++] ==> lib [c++]
-    arg [-lSystem] ==> lib [System]
-    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
-  implicit libs: [c++]
-  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+    arg [cmTC_ba720.exe] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtbegin.o] ==> ignore
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib]
+    arg [-LE:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..] ==> dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_ba720.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_ba720.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0] ==> [E:/mingw-w64/mingw32/lib/gcc/i686-w64-mingw32/8.1.0]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc] ==> [E:/mingw-w64/mingw32/lib/gcc]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib/../lib] ==> [E:/mingw-w64/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../lib] ==> [E:/mingw-w64/mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/lib] ==> [E:/mingw-w64/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [E:/mingw-w64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../..] ==> [E:/mingw-w64/mingw32/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [E:/mingw-w64/mingw32/lib/gcc/i686-w64-mingw32/8.1.0;E:/mingw-w64/mingw32/lib/gcc;E:/mingw-w64/mingw32/i686-w64-mingw32/lib;E:/mingw-w64/mingw32/lib]
+  implicit fwks: []
 
 
 
 
-Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c8283/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c8283.dir/build.make CMakeFiles/cmTC_c8283.dir/build
-Building CXX object CMakeFiles/cmTC_c8283.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++1z -o CMakeFiles/cmTC_c8283.dir/feature_tests.cxx.o -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c8283
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8283.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c8283.dir/feature_tests.cxx.o  -o cmTC_c8283 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_fc7ea/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_fc7ea.dir\build.make CMakeFiles/cmTC_fc7ea.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fc7ea.dir/feature_tests.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe    -std=c++2a -o CMakeFiles\cmTC_fc7ea.dir\feature_tests.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_fc7ea.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_fc7ea.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_fc7ea.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_fc7ea.dir/objects.a @CMakeFiles\cmTC_fc7ea.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_fc7ea.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fc7ea.exe -Wl,--out-implib,libcmTC_fc7ea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fc7ea.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_42382/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_42382.dir\build.make CMakeFiles/cmTC_42382.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42382.dir/feature_tests.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe    -std=c++17 -o CMakeFiles\cmTC_42382.dir\feature_tests.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_42382.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_42382.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_42382.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_42382.dir/objects.a @CMakeFiles\cmTC_42382.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_42382.dir/objects.a -Wl,--no-whole-archive  -o cmTC_42382.exe -Wl,--out-implib,libcmTC_42382.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_42382.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -848,15 +1267,19 @@ Linking CXX executable cmTC_c8283
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_09da7/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_09da7.dir/build.make CMakeFiles/cmTC_09da7.dir/build
-Building CXX object CMakeFiles/cmTC_09da7.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++14 -o CMakeFiles/cmTC_09da7.dir/feature_tests.cxx.o -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_09da7
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09da7.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_09da7.dir/feature_tests.cxx.o  -o cmTC_09da7 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_cd8e1/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_cd8e1.dir\build.make CMakeFiles/cmTC_cd8e1.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cd8e1.dir/feature_tests.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_cd8e1.dir\feature_tests.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_cd8e1.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cd8e1.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cd8e1.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_cd8e1.dir/objects.a @CMakeFiles\cmTC_cd8e1.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_cd8e1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cd8e1.exe -Wl,--out-implib,libcmTC_cd8e1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cd8e1.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -919,15 +1342,19 @@ Linking CXX executable cmTC_09da7
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7f303/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7f303.dir/build.make CMakeFiles/cmTC_7f303.dir/build
-Building CXX object CMakeFiles/cmTC_7f303.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_7f303.dir/feature_tests.cxx.o -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7f303
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f303.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7f303.dir/feature_tests.cxx.o  -o cmTC_7f303 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_952b9/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_952b9.dir\build.make CMakeFiles/cmTC_952b9.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_952b9.dir/feature_tests.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_952b9.dir\feature_tests.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_952b9.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_952b9.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_952b9.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_952b9.dir/objects.a @CMakeFiles\cmTC_952b9.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_952b9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_952b9.exe -Wl,--out-implib,libcmTC_952b9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_952b9.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -990,15 +1417,19 @@ Linking CXX executable cmTC_7f303
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4fe63/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4fe63.dir/build.make CMakeFiles/cmTC_4fe63.dir/build
-Building CXX object CMakeFiles/cmTC_4fe63.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++98 -o CMakeFiles/cmTC_4fe63.dir/feature_tests.cxx.o -c /Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4fe63
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fe63.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4fe63.dir/feature_tests.cxx.o  -o cmTC_4fe63 
+Run Build Command:"E:/mingw-w64/mingw32/bin/mingw32-make.exe" "cmTC_18acc/fast"
+E:/mingw-w64/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_18acc.dir\build.make CMakeFiles/cmTC_18acc.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18acc.dir/feature_tests.cxx.obj
+E:\mingw-w64\mingw32\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_18acc.dir\feature_tests.cxx.obj -c E:\Programming\Structures\C++Structures\bst\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_18acc.exe
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_18acc.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_18acc.dir/objects.a
+E:\mingw-w64\mingw32\bin\ar.exe cr CMakeFiles\cmTC_18acc.dir/objects.a @CMakeFiles\cmTC_18acc.dir\objects1.rsp
+E:\mingw-w64\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_18acc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_18acc.exe -Wl,--out-implib,libcmTC_18acc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_18acc.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

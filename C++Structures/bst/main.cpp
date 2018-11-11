@@ -4,15 +4,19 @@
 int main() {
     struct TreeNode *root = nullptr;
     root = insert(root, 12);
-    root = insert(root, 7);
-    root = insert(root, 18);
-    root = insert(root, 2);
-    root = insert(root, 10);
-    root = insert(root, 14);
-    root = insert(root, 23);
-    root = insert(root, 8);
-    root = insert(root, 9);
+    insert(root, 7);
+    insert(root, 18);
+    insert(root, 2);
+    insert(root, 10);
+    insert(root, 14);
+    insert(root, 23);
+    insert(root, 8);
+    insert(root, 9);
     printf("Preorder traversal of the binary tree:\n");
     print_preorder(root);
+    printf("\nInorder traversal of the binary tree:\n");
+    print_inorder(root);
+    printf("\nLevel Order traversal of the binary tree:\n");
+    level_order(root);
     return 0;
 }

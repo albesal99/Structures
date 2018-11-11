@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bst.dir/main.cpp.o"
-  "CMakeFiles/bst.dir/binary_search_tree.cpp.o"
+  "CMakeFiles/bst.dir/main.cpp.obj"
+  "CMakeFiles/bst.dir/binary_search_tree.cpp.obj"
   "bst.pdb"
-  "bst"
+  "bst.exe"
+  "bst.exe.manifest"
+  "libbst.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

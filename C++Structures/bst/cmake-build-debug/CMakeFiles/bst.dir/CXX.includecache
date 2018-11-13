@@ -6,27 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/alberto/Desktop/CPE/C++Structures/bst/binary_search_tree.cpp
-iostream
--
-bootstrap.h
--
-binary_search_tree.h
-/Users/alberto/Desktop/CPE/C++Structures/bst/binary_search_tree.h
-tuple
--
-algorithm
--
-queue
--
-
-/Users/alberto/Desktop/CPE/C++Structures/bst/binary_search_tree.h
+E:/Programming/Structures/C++Structures/bst/binary_search_tree.h
 tuple
 -
 
-/Users/alberto/Desktop/CPE/C++Structures/bst/main.cpp
+E:/Programming/Structures/C++Structures/bst/main.cpp
 iostream
 -
 binary_search_tree.h
-/Users/alberto/Desktop/CPE/C++Structures/bst/binary_search_tree.h
+E:/Programming/Structures/C++Structures/bst/binary_search_tree.h
 

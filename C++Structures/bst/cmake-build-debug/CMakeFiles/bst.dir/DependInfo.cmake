@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/alberto/Desktop/CPE/C++Structures/bst/binary_search_tree.cpp" "/Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/bst.dir/binary_search_tree.cpp.o"
-  "/Users/alberto/Desktop/CPE/C++Structures/bst/main.cpp" "/Users/alberto/Desktop/CPE/C++Structures/bst/cmake-build-debug/CMakeFiles/bst.dir/main.cpp.o"
+  "E:/Programming/Structures/C++Structures/bst/binary_search_tree.cpp" "E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/bst.dir/binary_search_tree.cpp.obj"
+  "E:/Programming/Structures/C++Structures/bst/main.cpp" "E:/Programming/Structures/C++Structures/bst/cmake-build-debug/CMakeFiles/bst.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

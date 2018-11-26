@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alberto/Desktop/CPE/C++Structures/heap/main.cpp
+iostream
+-
+max_heap.h
+/Users/alberto/Desktop/CPE/C++Structures/heap/max_heap.h
+
+/Users/alberto/Desktop/CPE/C++Structures/heap/max_heap.h
+

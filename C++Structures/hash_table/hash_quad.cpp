@@ -36,7 +36,7 @@ int hash_quad::hash_value(string key) {
     for (int character = 0; character < minimum; character++) {
         index = 31 * index + int(key[character]);
     }
-    return index % get_table_size();
+    return (((index % get_table_size()) + get_table_size()) % get_table_size());
 }
 
 bool hash_quad::in_table(string key) {
@@ -48,7 +48,7 @@ bool hash_quad::in_table(string key) {
         int col_index = pow(collisions, 2);
         col_index = floor(col_index);
         col_index += index;
-        col_index %= table_size;
+        col_index = (((col_index % get_table_size()) + get_table_size()) % get_table_size());
         hash_index = col_index;
     }
     return get<0>(hash_table[hash_index]) == key;
@@ -58,12 +58,13 @@ int hash_quad::get_index(string key) {
     int hash_index = hash_value(key);
     int index = hash_index;
     int collisions = 0;
+    cout << key << ": ";
     while (get<0>(hash_table[hash_index]) != "" and get<0>(hash_table[hash_index]) != key) {
         collisions++;
         int col_index = pow(collisions, 2);
         col_index = floor(col_index);
         col_index += index;
-        col_index %= table_size;
+        col_index = (((col_index % get_table_size()) + get_table_size()) % get_table_size());
         hash_index = col_index;
     }
     if (get<0>(hash_table[hash_index]) == key) {
@@ -82,14 +83,14 @@ void hash_quad::insert(string key, int value) {
             get<1>(hash_table[hash_index]).push_back(value);
             num_items++;
         } else {
-            int index = hash_index;
+            int t_index = hash_index;
             int collisions = 0;
             while (get<0>(hash_table[hash_index]) != "" and get<0>(hash_table[hash_index]) != key) {
                 collisions++;
                 int col_index = pow(collisions, 2);
                 col_index = floor(col_index);
-                col_index += index;
-                col_index %= table_size;
+                col_index += t_index;
+                col_index = (((col_index % get_table_size()) + get_table_size()) % get_table_size());
                 hash_index = col_index;
             }
             get<0>(hash_table[hash_index]) = key;

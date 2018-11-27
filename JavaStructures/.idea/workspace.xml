@@ -12,10 +12,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="linkedlist.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="linkedlist.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/linkedlist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
+            <state relative-caret-position="621">
               <caret line="124" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="38" />
               <folding>
                 <element signature="e#449#450#0" expanded="true" />
@@ -25,10 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linkedlist.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="linkedlist.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/production/JavaStructures/linkedlist.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1310">
+            <state relative-caret-position="15">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
@@ -69,6 +69,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,8 +105,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -191,11 +191,12 @@
       <updated>1528773125397</updated>
       <workItem from="1528773129461" duration="11350000" />
       <workItem from="1539670862522" duration="1298000" />
+      <workItem from="1542091741754" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12648000" />
+    <option name="totallyTimeSpent" value="13274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="967" extended-state="0" />
@@ -223,11 +224,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +238,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/linkedlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="124" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="38" />
+          <folding>
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaStructures/linkedlist.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1860">
@@ -255,21 +274,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaStructures/linkedlist.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
+        <state relative-caret-position="621">
           <caret line="124" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="38" />
           <folding>
             <element signature="e#449#450#0" expanded="true" />
             <element signature="e#487#488#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/JavaStructures/linkedlist.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1310">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

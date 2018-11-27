@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/heap.dir/main.cpp.o"
-  "CMakeFiles/heap.dir/max_heap.cpp.o"
+  "CMakeFiles/heap.dir/main.cpp.obj"
+  "CMakeFiles/heap.dir/max_heap.cpp.obj"
   "heap.pdb"
-  "heap"
+  "heap.exe"
+  "heap.exe.manifest"
+  "libheap.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/alberto/Desktop/CPE/C++Structures/heap/main.cpp" "/Users/alberto/Desktop/CPE/C++Structures/heap/cmake-build-debug/CMakeFiles/heap.dir/main.cpp.o"
-  "/Users/alberto/Desktop/CPE/C++Structures/heap/max_heap.cpp" "/Users/alberto/Desktop/CPE/C++Structures/heap/cmake-build-debug/CMakeFiles/heap.dir/max_heap.cpp.o"
+  "E:/Programming/Structures/C++Structures/heap/main.cpp" "E:/Programming/Structures/C++Structures/heap/cmake-build-debug/CMakeFiles/heap.dir/main.cpp.obj"
+  "E:/Programming/Structures/C++Structures/heap/max_heap.cpp" "E:/Programming/Structures/C++Structures/heap/cmake-build-debug/CMakeFiles/heap.dir/max_heap.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

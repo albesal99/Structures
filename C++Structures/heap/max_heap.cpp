@@ -2,70 +2,46 @@
 // Created by Alberto Salmeron on 11/17/18.
 //
 
+#include <iostream>
 #include "max_heap.h"
+using namespace std;
 
-#define CAPACITY 50
-
-class MaxHeap {
-    int capacity;
-    int num_items;
-    int *heap;
-
-public:
-    MaxHeap(int capacity = CAPACITY);
-
-    bool is_full();
-    bool is_empty();
-    int get_capacity();
-    int get_size();
-    int peek();
-    bool enqueue(int);
-    int dequeue();
-    void build_heap(int *, int);
-
-private:
-    void percolate_up(int);
-    void percolate_down(int);
-    void swap(int, int);
-    int max_child(int);
-};
-
-MaxHeap::MaxHeap(int capacity) {
-    heap = new int[capacity + 1];
-    capacity = capacity;
+max_heap::max_heap(int size) {
+    capacity = size;
+    heap = new int[size + 1];
     num_items = 0;
 }
 
-bool MaxHeap::is_full() {
+bool max_heap::is_full() {
     return num_items == capacity;
 }
 
-bool MaxHeap::is_empty() {
+bool max_heap::is_empty() {
     return num_items == 0;
 }
 
-int MaxHeap::get_capacity() {
+int max_heap::get_capacity() {
     return capacity;
 }
 
-int MaxHeap::get_size() {
+int max_heap::get_size() {
     return num_items;
 }
 
-int MaxHeap::peek() {
+int max_heap::peek() {
     if (is_empty()) {
         return 0;
     }
     return heap[1];
 }
 
-void MaxHeap::swap(int current_index, int parent_index) {
+void max_heap::swap(int current_index, int parent_index) {
     int temp = heap[current_index];
     heap[current_index] = heap[parent_index];
     heap[parent_index] = temp;
 }
 
-void MaxHeap::percolate_up(int index) {
+void max_heap::percolate_up(int index) {
     int parent_index = index / 2;
     int current_index = index;
     while (parent_index > 0 and heap[current_index] >= heap[parent_index]) {
@@ -75,7 +51,7 @@ void MaxHeap::percolate_up(int index) {
     }
 }
 
-bool MaxHeap::enqueue(int item) {
+bool max_heap::enqueue(int item) {
     if (is_full()) {
         return false;
     }
@@ -85,7 +61,7 @@ bool MaxHeap::enqueue(int item) {
     return true;
 }
 
-int MaxHeap::max_child(int index) {
+int max_heap::max_child(int index) {
     if (index * 2 + 1 > get_size()) {
         return index * 2;
     } else {
@@ -97,7 +73,7 @@ int MaxHeap::max_child(int index) {
     }
 }
 
-void MaxHeap::percolate_down(int index) {
+void max_heap::percolate_down(int index) {
     while (index * 2 <= get_size()) {
         int max = max_child(index);
         if ((heap[index] != 0 and heap[max] != 0) and (heap[index] < heap[max])) {
@@ -107,7 +83,7 @@ void MaxHeap::percolate_down(int index) {
     }
 }
 
-int MaxHeap::dequeue() {
+int max_heap::dequeue() {
     if (is_empty()) {
         return 0;
     }
@@ -119,7 +95,12 @@ int MaxHeap::dequeue() {
     return max_item;
 }
 
-void MaxHeap::build_heap(int *arr, int array_size) {
+void max_heap::build_heap(int *arr, int array_size) {
+    if (capacity < array_size) {
+        capacity = array_size;
+        delete[] heap;
+        heap = new int[array_size + 1];
+    }
     if (array_size > 0) {
         int index = 1;
         for (int i = 0; i < array_size; i++) {
@@ -132,5 +113,25 @@ void MaxHeap::build_heap(int *arr, int array_size) {
             percolate_down(i);
             i--;
         }
+    }
+}
+
+void max_heap::contents() {
+    for (int i = 1; i <= num_items; i++) {
+        cout << heap[i] << " ";
+    }
+}
+
+void max_heap::heap_sort_ascending(int *arr, int arr_size) {
+    build_heap(arr, arr_size);
+    for (int i = arr_size - 1; i >= 0; i--) {
+        arr[i] = dequeue();
+    }
+}
+
+void max_heap::heap_sort_descending(int *arr, int arr_size) {
+    build_heap(arr, arr_size);
+    for (int i = 0; i < arr_size; i++) {
+        arr[i] = dequeue();
     }
 }

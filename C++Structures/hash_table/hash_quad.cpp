@@ -30,11 +30,11 @@ double hash_quad::get_load_factor() {
 }
 
 int hash_quad::hash_value(string key) {
-    int index = 0;
+    long long index = 0;
     int key_length = key.length();
     int minimum = min(key_length, 8);
     for (int character = 0; character < minimum; character++) {
-        index = 31 * index + int(key[character]);
+        index = 31 * index + key[character];
     }
     return (((index % get_table_size()) + get_table_size()) % get_table_size());
 }
@@ -46,7 +46,6 @@ bool hash_quad::in_table(string key) {
     while (get<0>(hash_table[hash_index]) != "" and get<0>(hash_table[hash_index]) != key) {
         collisions++;
         int col_index = pow(collisions, 2);
-        col_index = floor(col_index);
         col_index += index;
         col_index = (((col_index % get_table_size()) + get_table_size()) % get_table_size());
         hash_index = col_index;
@@ -62,7 +61,6 @@ int hash_quad::get_index(string key) {
     while (get<0>(hash_table[hash_index]) != "" and get<0>(hash_table[hash_index]) != key) {
         collisions++;
         int col_index = pow(collisions, 2);
-        col_index = floor(col_index);
         col_index += index;
         col_index = (((col_index % get_table_size()) + get_table_size()) % get_table_size());
         hash_index = col_index;
@@ -73,11 +71,11 @@ int hash_quad::get_index(string key) {
 }
 
 void hash_quad::insert(string key, int value) {
-    int hash_index = hash_value(key);
     if (in_table(key)) {
         int index = get_index(key);
         get<1>(hash_table[index]).push_back(value);
     } else {
+        int hash_index = hash_value(key);
         if (get<0>(hash_table[hash_index]) == "") {
             get<0>(hash_table[hash_index]) = key;
             get<1>(hash_table[hash_index]).push_back(value);
@@ -88,7 +86,6 @@ void hash_quad::insert(string key, int value) {
             while (get<0>(hash_table[hash_index]) != "" and get<0>(hash_table[hash_index]) != key) {
                 collisions++;
                 int col_index = pow(collisions, 2);
-                col_index = floor(col_index);
                 col_index += t_index;
                 col_index = (((col_index % get_table_size()) + get_table_size()) % get_table_size());
                 hash_index = col_index;
@@ -97,9 +94,9 @@ void hash_quad::insert(string key, int value) {
             get<1>(hash_table[hash_index]).push_back(value);
             num_items++;
         }
-    }
-    if (get_load_factor() > 0.5) {
-        rehash(hash_table);
+        if (get_load_factor() > 0.5) {
+            rehash(hash_table);
+        }
     }
 }
 
@@ -119,4 +116,14 @@ void hash_quad::rehash(tuple<string, vector<int>> *old_table) {
         }
     }
     delete[] old_table;
+}
+
+vector<string> hash_quad::get_all_keys() {
+    vector<string> keys;
+    for (int i = 0; i < get_table_size(); i++) {
+        if (get<0>(hash_table[i]) != "") {
+            keys.push_back(get<0>(hash_table[i]));
+        }
+    }
+    return keys;
 }

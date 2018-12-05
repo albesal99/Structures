@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hash_table.dir/main.cpp.obj"
-  "CMakeFiles/hash_table.dir/hash_quad.cpp.obj"
+  "CMakeFiles/hash_table.dir/main.cpp.o"
+  "CMakeFiles/hash_table.dir/hash_quad.cpp.o"
   "hash_table.pdb"
-  "hash_table.exe"
-  "hash_table.exe.manifest"
-  "libhash_table.dll.a"
+  "hash_table"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,27 +6,23 @@
 
 #IncludeRegexTransform: 
 
-E:/Programming/Structures/C++Structures/hash_table/hash_quad.cpp
+/Users/alberto/Desktop/CPE/C++Structures/hash_table/hash_quad.h
+tuple
+-
+string
+-
+vector
+-
+
+/Users/alberto/Desktop/CPE/C++Structures/hash_table/main.cpp
 iostream
 -
 hash_quad.h
-E:/Programming/Structures/C++Structures/hash_table/hash_quad.h
-algorithm
+/Users/alberto/Desktop/CPE/C++Structures/hash_table/hash_quad.h
+tuple
 -
 vector
 -
-tuple
--
 string
--
-math.h
--
-
-E:/Programming/Structures/C++Structures/hash_table/hash_quad.h
-tuple
--
-string
--
-vector
 -
 
